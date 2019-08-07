@@ -1,0 +1,104 @@
+
+        
+        $this->testing->dbUpdate('purchaser',array('province'=>'北京市'),array('province'=>'北京'));
+        $this->testing->dbUpdate('purchaser',array('city'=>'北京市'),array('city'=>'北京'));
+        
+        $this->testing->dbUpdate('purchaser',array('province'=>'上海市'),array('province'=>'上海'));
+        $this->testing->dbUpdate('purchaser',array('city'=>'上海市'),array('city'=>'上海'));
+        
+        $this->testing->dbUpdate('purchaser',array('province'=>'重庆市'),array('province'=>'重庆'));
+        $this->testing->dbUpdate('purchaser',array('city'=>'重庆市'),array('city'=>'重庆'));
+        
+        $this->testing->dbUpdate('purchaser',array('province'=>'天津市'),array('province'=>'天津'));
+        $this->testing->dbUpdate('purchaser',array('city'=>'天津市'),array('city'=>'天津'));
+        
+        
+        $this->testing->dbUpdate('purchaser',array('province'=>'云南省'),array('province'=>'云南'));
+        $this->testing->dbUpdate('purchaser',array('province'=>'内蒙古自治区'),array('province'=>'内蒙 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'内蒙古自治区'),array('province'=>'内蒙古'));
+        $this->testing->dbUpdate('purchaser',array('province'=>'吉林省'),array('province'=>'吉林 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'吉林省'),array('province'=>'吉林'));
+        $this->testing->dbUpdate('purchaser',array('province'=>'四川省'),array('province'=>'四川'));
+        $this->testing->dbUpdate('purchaser',array('province'=>'四川省'),array('province'=>'四川 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'宁夏回族自治区'),array('province'=>'宁夏 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'宁夏回族自治区'),array('province'=>'宁夏'));
+        $this->testing->dbUpdate('purchaser',array('province'=>'安徽省'),array('province'=>'安徽 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'安徽省'),array('province'=>'安徽'));
+        $this->testing->dbUpdate('purchaser',array('province'=>'山东省'),array('province'=>'山东 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'山东省'),array('province'=>'山东'));
+        $this->testing->dbUpdate('purchaser',array('province'=>'山西省'),array('province'=>'山西 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'山西省'),array('province'=>'山西'));
+        
+        $this->testing->dbUpdate('purchaser',array('province'=>'广东省'),array('province'=>'广东 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'广东省'),array('province'=>'广东'));
+        $this->testing->dbUpdate('purchaser',array('province'=>'广西壮族自治区'),array('province'=>'广西 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'广西壮族自治区'),array('province'=>'广西'));
+        $this->testing->dbUpdate('purchaser',array('province'=>'新疆维吾尔自治区'),array('province'=>'新疆 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'新疆维吾尔自治区'),array('province'=>'新疆'));
+        $this->testing->dbUpdate('purchaser',array('province'=>'江苏省'),array('province'=>'江苏 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'江苏省'),array('province'=>'江苏'));
+        $this->testing->dbUpdate('purchaser',array('province'=>'江西省'),array('province'=>'江西 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'江西省'),array('province'=>'江西'));
+        $this->testing->dbUpdate('purchaser',array('province'=>'河北省'),array('province'=>'河北 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'河北省'),array('province'=>'河北'));
+        $this->testing->dbUpdate('purchaser',array('province'=>'河南省'),array('province'=>'河南 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'河南省'),array('province'=>'河南'));
+        $this->testing->dbUpdate('purchaser',array('province'=>'浙江省'),array('province'=>'浙江 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'浙江省'),array('province'=>'浙江'));
+        $this->testing->dbUpdate('purchaser',array('province'=>'海南省'),array('province'=>'海南 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'海南省'),array('province'=>'海南'));
+        $this->testing->dbUpdate('purchaser',array('province'=>'湖北省'),array('province'=>'湖北 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'湖北省'),array('province'=>'湖北'));
+        
+        $this->testing->dbUpdate('purchaser',array('province'=>'湖南省'),array('province'=>'湖南 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'湖南省'),array('province'=>'湖南'));
+        $this->testing->dbUpdate('purchaser',array('province'=>'甘肃省'),array('province'=>'甘肃 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'甘肃省'),array('province'=>'甘肃'));
+        $this->testing->dbUpdate('purchaser',array('province'=>'福建省'),array('province'=>'福建 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'福建省'),array('province'=>'福建'));
+        $this->testing->dbUpdate('purchaser',array('province'=>'西藏自治区'),array('province'=>'西藏'));
+        
+        $this->testing->dbUpdate('purchaser',array('province'=>'贵州省'),array('province'=>'贵州 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'贵州省'),array('province'=>'贵州'));
+        $this->testing->dbUpdate('purchaser',array('province'=>'辽宁省'),array('province'=>'辽宁 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'辽宁省'),array('province'=>'辽宁'));
+        $this->testing->dbUpdate('purchaser',array('province'=>'陕西省'),array('province'=>'陕西 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'陕西省'),array('province'=>'陕西'));
+        $this->testing->dbUpdate('purchaser',array('province'=>'青海省'),array('province'=>'青海 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'青海省'),array('province'=>'青海'));
+        $this->testing->dbUpdate('purchaser',array('province'=>'黑龙江省'),array('province'=>'黑龙江 '));
+        $this->testing->dbUpdate('purchaser',array('province'=>'黑龙江省'),array('province'=>'黑龙江'));
+        
+        array(
+            '北京' => '北京市',
+            '上海' => '上海市',
+            '重庆' => '重庆市',
+            '天津' => '天津市',
+            '云南' => '云南省',
+            '内蒙古' => '内蒙古自治区',
+            '吉林' => '吉林省',
+            '四川' => '四川省',
+            '宁夏' => '宁夏回族自治区',
+            '安徽' => '安徽省',
+            '山东' => '山东省',
+            '山西' => '山西省',
+            '广东' => '广东省',
+            '广西' => '广西壮族自治区',
+            '新疆' => '新疆维吾尔自治区',
+            '江苏' => '江苏省',
+            '江西' => '江西省',
+            '河北' => '河北省',
+            '河南' => '河南省',
+            '浙江' => '浙江省',
+            '海南' => '海南省',
+            '湖北' => '湖北省',
+            '湖南' => '湖南省',
+            '甘肃' => '甘肃省',
+            '福建' => '福建省',
+            '西藏' => '西藏自治区',
+            '贵州' => '贵州省',
+            '辽宁' => '辽宁省',
+            '陕西' => '陕西省',
+            '青海' => '青海省',
+            '黑龙江' => '黑龙江省',
+        );
