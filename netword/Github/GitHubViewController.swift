@@ -77,8 +77,18 @@ class GitHubViewController: UIViewController {
         tableView.rx.modelSelected(GitHubRepository.self)
             .subscribe(onNext: {[weak self] item in
                 //显示资源信息（完整名称和描述信息）
+//                print(item)
                 self?.showAlert(title: item.fullName, message: item.description)
             }).disposed(by: disposeBag)
+        
+        tableView.rx.itemSelected.subscribe(onNext: { [weak self] indexPath in
+            print(indexPath.row)
+            self?.tableView.deselectRow(at: indexPath, animated: true)
+        }).disposed(by: disposeBag)
+        
+        tableView.rx.itemAccessoryButtonTapped.subscribe(onNext: { [weak self] indexPath in
+            print("indexPath: \(indexPath)")
+        }).disposed(by: disposeBag)
     }
     
     //显示消息

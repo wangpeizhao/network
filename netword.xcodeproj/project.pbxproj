@@ -22,7 +22,10 @@
 		9E7B316422F9C46A00DCC7B1 /* Pods_netword.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7B316322F9C46A00DCC7B1 /* Pods_netword.framework */; };
 		9E7B316622F9D64000DCC7B1 /* GitHubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B316522F9D64000DCC7B1 /* GitHubModel.swift */; };
 		9E7B316822F9D95A00DCC7B1 /* GitHubViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B316722F9D95A00DCC7B1 /* GitHubViewModel.swift */; };
-		9E7B316A22F9E1E800DCC7B1 /* Single+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B316922F9E1E800DCC7B1 /* Single+ObjectMapper.swift */; };
+		9E7B316A22F9E1E800DCC7B1 /* Single+ObjectMapper.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B316922F9E1E800DCC7B1 /* Single+ObjectMapper.1.swift */; };
+		9E7B316D22FB0B1000DCC7B1 /* ObservableType+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B316B22FB0B0F00DCC7B1 /* ObservableType+ObjectMapper.swift */; };
+		9E7B316E22FB0B1000DCC7B1 /* Single+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B316C22FB0B1000DCC7B1 /* Single+ObjectMapper.swift */; };
+		9E7B317022FB0B1800DCC7B1 /* Response+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B316F22FB0B1800DCC7B1 /* Response+ObjectMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +48,10 @@
 		9E7B316322F9C46A00DCC7B1 /* Pods_netword.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_netword.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E7B316522F9D64000DCC7B1 /* GitHubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubModel.swift; sourceTree = "<group>"; };
 		9E7B316722F9D95A00DCC7B1 /* GitHubViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubViewModel.swift; sourceTree = "<group>"; };
-		9E7B316922F9E1E800DCC7B1 /* Single+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Single+ObjectMapper.swift"; sourceTree = "<group>"; };
+		9E7B316922F9E1E800DCC7B1 /* Single+ObjectMapper.1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Single+ObjectMapper.1.swift"; sourceTree = "<group>"; };
+		9E7B316B22FB0B0F00DCC7B1 /* ObservableType+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+ObjectMapper.swift"; sourceTree = "<group>"; };
+		9E7B316C22FB0B1000DCC7B1 /* Single+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Single+ObjectMapper.swift"; sourceTree = "<group>"; };
+		9E7B316F22FB0B1800DCC7B1 /* Response+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+ObjectMapper.swift"; sourceTree = "<group>"; };
 		DE807684F1D72E8BFEF307DD /* Pods_netword.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_netword.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -107,7 +113,10 @@
 		9E7B315522F65B0800DCC7B1 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				9E7B316922F9E1E800DCC7B1 /* Single+ObjectMapper.swift */,
+				9E7B316F22FB0B1800DCC7B1 /* Response+ObjectMapper.swift */,
+				9E7B316B22FB0B0F00DCC7B1 /* ObservableType+ObjectMapper.swift */,
+				9E7B316C22FB0B1000DCC7B1 /* Single+ObjectMapper.swift */,
+				9E7B316922F9E1E800DCC7B1 /* Single+ObjectMapper.1.swift */,
 				9E7B315A22F65BAB00DCC7B1 /* Common.swift */,
 				9E7B315C22F65BFF00DCC7B1 /* UIColor.swift */,
 				9E7B315622F65B3600DCC7B1 /* HelperCommon.swift */,
@@ -261,11 +270,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E7B316822F9D95A00DCC7B1 /* GitHubViewModel.swift in Sources */,
-				9E7B316A22F9E1E800DCC7B1 /* Single+ObjectMapper.swift in Sources */,
+				9E7B316A22F9E1E800DCC7B1 /* Single+ObjectMapper.1.swift in Sources */,
 				9E7B314422F52DBA00DCC7B1 /* ViewController.swift in Sources */,
 				9E7B316222F9C2D900DCC7B1 /* GitHubAPI.swift in Sources */,
+				9E7B316D22FB0B1000DCC7B1 /* ObservableType+ObjectMapper.swift in Sources */,
 				9E7B315D22F65BFF00DCC7B1 /* UIColor.swift in Sources */,
 				9E7B314222F52DBA00DCC7B1 /* AppDelegate.swift in Sources */,
+				9E7B316E22FB0B1000DCC7B1 /* Single+ObjectMapper.swift in Sources */,
+				9E7B317022FB0B1800DCC7B1 /* Response+ObjectMapper.swift in Sources */,
 				9E7B315722F65B3600DCC7B1 /* HelperCommon.swift in Sources */,
 				9E7B315922F65B5400DCC7B1 /* Specs.swift in Sources */,
 				9E7B316622F9D64000DCC7B1 /* GitHubModel.swift in Sources */,
