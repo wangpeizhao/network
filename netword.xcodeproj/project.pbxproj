@@ -26,6 +26,10 @@
 		9E7B316D22FB0B1000DCC7B1 /* ObservableType+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B316B22FB0B0F00DCC7B1 /* ObservableType+ObjectMapper.swift */; };
 		9E7B316E22FB0B1000DCC7B1 /* Single+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B316C22FB0B1000DCC7B1 /* Single+ObjectMapper.swift */; };
 		9E7B317022FB0B1800DCC7B1 /* Response+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B316F22FB0B1800DCC7B1 /* Response+ObjectMapper.swift */; };
+		9E7B317422FC685A00DCC7B1 /* GitHubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B317322FC685A00DCC7B1 /* GitHubService.swift */; };
+		9E7B317822FC6E5300DCC7B1 /* DouBanAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B317722FC6E5300DCC7B1 /* DouBanAPI.swift */; };
+		9E7B317A22FC753F00DCC7B1 /* DouBanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B317922FC753F00DCC7B1 /* DouBanViewController.swift */; };
+		9E7B317C22FC794C00DCC7B1 /* DouBanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B317B22FC794C00DCC7B1 /* DouBanModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +56,10 @@
 		9E7B316B22FB0B0F00DCC7B1 /* ObservableType+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+ObjectMapper.swift"; sourceTree = "<group>"; };
 		9E7B316C22FB0B1000DCC7B1 /* Single+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Single+ObjectMapper.swift"; sourceTree = "<group>"; };
 		9E7B316F22FB0B1800DCC7B1 /* Response+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+ObjectMapper.swift"; sourceTree = "<group>"; };
+		9E7B317322FC685A00DCC7B1 /* GitHubService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubService.swift; sourceTree = "<group>"; };
+		9E7B317722FC6E5300DCC7B1 /* DouBanAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouBanAPI.swift; sourceTree = "<group>"; };
+		9E7B317922FC753F00DCC7B1 /* DouBanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouBanViewController.swift; sourceTree = "<group>"; };
+		9E7B317B22FC794C00DCC7B1 /* DouBanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouBanModel.swift; sourceTree = "<group>"; };
 		DE807684F1D72E8BFEF307DD /* Pods_netword.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_netword.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -97,7 +105,8 @@
 		9E7B314022F52DBA00DCC7B1 /* netword */ = {
 			isa = PBXGroup;
 			children = (
-				9E7B315E22F9BAC300DCC7B1 /* Github */,
+				9E7B317622FC6E1000DCC7B1 /* DouBan */,
+				9E7B315E22F9BAC300DCC7B1 /* GitHub */,
 				9E7B315522F65B0800DCC7B1 /* Helper */,
 				9E7B314122F52DBA00DCC7B1 /* AppDelegate.swift */,
 				9E7B314322F52DBA00DCC7B1 /* ViewController.swift */,
@@ -125,15 +134,26 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
-		9E7B315E22F9BAC300DCC7B1 /* Github */ = {
+		9E7B315E22F9BAC300DCC7B1 /* GitHub */ = {
 			isa = PBXGroup;
 			children = (
 				9E7B315F22F9BAEA00DCC7B1 /* GitHubViewController.swift */,
 				9E7B316122F9C2D900DCC7B1 /* GitHubAPI.swift */,
 				9E7B316522F9D64000DCC7B1 /* GitHubModel.swift */,
 				9E7B316722F9D95A00DCC7B1 /* GitHubViewModel.swift */,
+				9E7B317322FC685A00DCC7B1 /* GitHubService.swift */,
 			);
-			path = Github;
+			path = GitHub;
+			sourceTree = "<group>";
+		};
+		9E7B317622FC6E1000DCC7B1 /* DouBan */ = {
+			isa = PBXGroup;
+			children = (
+				9E7B317722FC6E5300DCC7B1 /* DouBanAPI.swift */,
+				9E7B317922FC753F00DCC7B1 /* DouBanViewController.swift */,
+				9E7B317B22FC794C00DCC7B1 /* DouBanModel.swift */,
+			);
+			path = DouBan;
 			sourceTree = "<group>";
 		};
 		E6DA2D232B3809F4CE481658 /* Frameworks */ = {
@@ -271,17 +291,21 @@
 			files = (
 				9E7B316822F9D95A00DCC7B1 /* GitHubViewModel.swift in Sources */,
 				9E7B316A22F9E1E800DCC7B1 /* Single+ObjectMapper.1.swift in Sources */,
+				9E7B317422FC685A00DCC7B1 /* GitHubService.swift in Sources */,
+				9E7B317822FC6E5300DCC7B1 /* DouBanAPI.swift in Sources */,
 				9E7B314422F52DBA00DCC7B1 /* ViewController.swift in Sources */,
 				9E7B316222F9C2D900DCC7B1 /* GitHubAPI.swift in Sources */,
 				9E7B316D22FB0B1000DCC7B1 /* ObservableType+ObjectMapper.swift in Sources */,
 				9E7B315D22F65BFF00DCC7B1 /* UIColor.swift in Sources */,
 				9E7B314222F52DBA00DCC7B1 /* AppDelegate.swift in Sources */,
 				9E7B316E22FB0B1000DCC7B1 /* Single+ObjectMapper.swift in Sources */,
+				9E7B317C22FC794C00DCC7B1 /* DouBanModel.swift in Sources */,
 				9E7B317022FB0B1800DCC7B1 /* Response+ObjectMapper.swift in Sources */,
 				9E7B315722F65B3600DCC7B1 /* HelperCommon.swift in Sources */,
 				9E7B315922F65B5400DCC7B1 /* Specs.swift in Sources */,
 				9E7B316622F9D64000DCC7B1 /* GitHubModel.swift in Sources */,
 				9E7B315B22F65BAC00DCC7B1 /* Common.swift in Sources */,
+				9E7B317A22FC753F00DCC7B1 /* DouBanViewController.swift in Sources */,
 				9E7B315422F5509900DCC7B1 /* Music.swift in Sources */,
 				9E7B316022F9BAEA00DCC7B1 /* GitHubViewController.swift in Sources */,
 			);

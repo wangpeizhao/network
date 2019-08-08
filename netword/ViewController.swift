@@ -56,6 +56,7 @@ class ViewController: UIViewController {
     @objc func actionClick()->Void {
 //        _back(view: self)
         print("click...")
+        _open(view: self, vc: DouBanViewController())
     }
     
     func _set_up() {

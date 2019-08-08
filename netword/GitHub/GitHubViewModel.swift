@@ -11,6 +11,9 @@ import RxSwift
 import RxCocoa
 
 class GitHubViewModel {
+    /**** 数据请求服务 ***/
+    let gitHubService = GitHubService()
+    
     /**** 输入部分 ***/
     //查询行为
     fileprivate let searchAction:Driver<String>
@@ -34,13 +37,8 @@ class GitHubViewModel {
         
         //生成查询结果序列
         self.searchResult = searchAction
-            .filter { !$0.isEmpty} //如果输入为空则不发送请求了
-            .flatMapLatest {
-                GitHubProvider.rx.request(.repositories($0))
-                .filterSuccessfulStatusCodes()
-                .mapObject(GitHubRepositories.self)
-                    .asDriver(onErrorDriveWith: Driver.empty())
-        }
+            .filter { !$0.isEmpty } //如果输入为空则不发送请求了
+            .flatMapLatest(gitHubService.searchRepositories)
         
         //生成清空结果动作序列
         self.cleanResult = searchAction.filter {$0.isEmpty}
